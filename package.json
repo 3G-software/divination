@@ -1,0 +1,24 @@
+{
+  "name": "divination",
+  "version": "1.0.0",
+  "description": "易经八卦算命小程序 - I Ching Divination Mini Program",
+  "main": "game.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "postinstall": "cp node_modules/phaser/dist/phaser.min.js js/libs/phaser.min.js || echo 'Please manually copy phaser.min.js'",
+    "setup": "npm install && cp node_modules/phaser/dist/phaser.min.js js/libs/phaser.min.js"
+  },
+  "dependencies": {
+    "phaser": "^3.60.0"
+  },
+  "keywords": [
+    "i-ching",
+    "divination",
+    "phaser",
+    "mini-program",
+    "game"
+  ],
+  "author": "",
+  "license": "MIT"
+}
